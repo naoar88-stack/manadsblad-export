@@ -10,3 +10,5 @@ services:
         value: production
       - key: ALLOWED_ORIGIN
         value: https://manadsblad.vercel.app
+      - key: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD
+        value: "true"
