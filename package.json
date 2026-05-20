@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Puppeteer PDF-exportserver f\u00f6r M\u00e5nadsblad Pro",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev":   "node --watch server.js"
